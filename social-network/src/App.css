@@ -3,7 +3,6 @@
 .App {
   text-align: center;
 }
-
 .app-wrapper {
   margin: 0 auto;
   width: 1200px;
@@ -14,23 +13,4 @@
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
-}
-.header {
-  background: green;
-  grid-area: h;
-}
-.header img {
-  width: 20px;
-}
-.nav {
-  grid-area: n;
-  background: beige;
-}
-.content {
-  background: blue;
-  grid-area: c;
-}
-
-.content {
-	
 }
