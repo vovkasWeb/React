@@ -9,7 +9,9 @@ return(
 	  My posts
 	  <div>Mew post</div>
 	  <div className={s.posts}>
-		 <Post/>
+		 <Post message='Hi, how are you?' likesCount={0}/>
+		 <Post message='It is my first post' likesCount={23}/>
+		 
 	  </div>
 	</div>
  
