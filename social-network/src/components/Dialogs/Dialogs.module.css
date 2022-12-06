@@ -7,7 +7,7 @@ a{
   grid-template-columns: 2fr 10fr;
 }
 .dialogsItems {
-	
+	color: white;
   padding: 10px;
 }
 .dialogsItems .active{
@@ -20,4 +20,5 @@ a{
   padding: 10px;
 }
 .message {
+	color: white;
 }
