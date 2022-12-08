@@ -9,13 +9,14 @@ let postsElement= props.posts.map(p=><Post message={p.message} likesCount={p.lik
 let newPostElement = React.createRef();
 
 let addPost=()=>{
-	props.addPost(newPostElement.current.value);
-	newPostElement.current.value ="";
+	props.addPost();
+	
 }
 
 let onPostChange = ()=>{
 let text =newPostElement.current.value;
 	props.updateNewPostText(text);
+	
 }
 
 return (
