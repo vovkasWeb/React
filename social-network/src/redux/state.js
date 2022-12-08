@@ -11,6 +11,7 @@ let state = {
       { id: 4, message: "Yo" },
       { id: 5, message: "YO" },
     ],
+    newPostText: '',
   },
   dialogsPage: {
     dialogs: [
@@ -38,4 +39,10 @@ export let addPost = (postMessage) => {
   state.profilePage.posts.push(newPost);
   rerenderEntireThree(state);
 };
+
+export let updateNewPostText = (newText) => {
+  state.profilePage.newPostText=(newText);
+  rerenderEntireThree(state);
+};
+
 export default state;
