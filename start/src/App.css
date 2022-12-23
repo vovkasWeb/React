@@ -1,0 +1,12 @@
+body{
+	background-color: rgb(187, 158, 122);
+}
+img{
+	width: 150px;
+	
+}
+.active{
+	color: red;
+	background-color: blueviolet;
+	font-weight: 600;
+}
