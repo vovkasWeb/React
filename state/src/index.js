@@ -2,11 +2,14 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { Button } from "./App";
 import styled from "styled-components";
+import BootstrapTest from "./BootstrapTest";
+
 
 const BigButton = styled(Button)`
   margin: 0 auto;
@@ -18,6 +21,7 @@ root.render(
   <React.StrictMode>
     <App />
     <BigButton as="a">+++</BigButton>
+	 <BootstrapTest/>
   </React.StrictMode>
 );
 
